@@ -1,0 +1,228 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Début bannière*/
+.banniere {
+  background-color: #6974d3;
+  margin-top: -0.7em;
+  font-family: 'Chewy', cursive;
+}
+
+.logo {
+  width: 5em;
+  padding-bottom: 0.3em;
+  padding-left: 1em;
+  padding-top: 0.8em;
+}
+
+ul li {
+  float: right;
+  list-style: none;
+  padding: 2.3em;
+  margin-bottom: 4;
+  padding-left: 2em;
+  margin-top: -6em;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.lien {
+  text-decoration: none;
+  color: white;
+}
+
+.lien:hover {
+  text-decoration: none;
+  color: #dfcf3e;
+}
+
+#sélectionné {
+  color: #dfcf3e;
+}
+
+/*Début header*/
+.header {
+  padding-right: 0px;
+  padding-left: 0px;
+  background-image: url(/assets/img/banniere001.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin-top: -1em;
+  padding-bottom: 7.4em;
+  font-family: 'Chewy', cursive;
+}
+
+.logo1 {
+  width: 100%;
+}
+
+.logotxt {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+  text-align: center;
+  color: white;
+  padding-top: 2em;
+}
+
+.para {
+  font-size: 3em;
+  margin-left: -4.5em;
+  margin-right: -4.5em;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+
+.barre {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#ffffff00));
+  background-image: linear-gradient(yellow 0%, #ffffff00 100%);
+  height: 7px;
+  opacity: 0.7;
+}
+
+/*Début vidéo*/
+.sctvid {
+  font-family: 'Lora', serif;
+  background-color: #6974d3;
+  background-image: url(/assets/img/testbg02.png);
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-box-shadow: inset 0px 4px 4px 0px rgba(255, 255, 0, 0.75);
+          box-shadow: inset 0px 4px 4px 0px rgba(255, 255, 0, 0.75);
+}
+
+.vidtxt {
+  text-align: center;
+}
+
+.video {
+  -webkit-box-shadow: 6px 5px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 5px 5px -1px rgba(0, 0, 0, 0.75);
+  margin-top: 1em;
+}
+
+.plat {
+  width: 100%;
+}
+
+.btn {
+  background-color: chartreuse;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.borderint {
+  border: 2px solid #d6d6d6;
+  border-radius: 3px;
+}
+
+.carte {
+  padding-top: 1em;
+  margin-bottom: 2em;
+  -webkit-box-shadow: 4px 2px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 2px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+.haut {
+  border-bottom: 2px solid #d6d6d6;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.jumbo {
+  border: solid 1px black;
+  -webkit-box-shadow: 4px 2px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 2px 5px -1px rgba(0, 0, 0, 0.75);
+  background-color: #6974d3 !important;
+}
+
+.bas {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.tit {
+  font-size: 1.3em;
+  font-family: 'Chewy', cursive;
+  color: #6974d3;
+}
+
+.btng {
+  font-family: 'Roboto', sans-serif;
+}
+
+.linkd {
+  font-family: 'Roboto', sans-serif;
+}
+
+.yback {
+  background-color: yellow;
+  margin-left: 12em;
+  margin-right: 12em;
+}
+
+/*Début footer*/
+.footer {
+  -webkit-box-shadow: inset 0px 4px 4px 0px rgba(255, 255, 0, 0.75);
+          box-shadow: inset 0px 4px 4px 0px rgba(255, 255, 0, 0.75);
+  background-color: #6974d3;
+}
+
+.txtfoot {
+  color: #aac2e2;
+  font-family: 'Chewy', cursive;
+  font-size: 1em;
+  padding-left: 2em;
+}
+
+.imgl {
+  width: 4%;
+}
+
+/*Début menu*/
+.titrem {
+  text-align: center;
+  font-family: 'Chewy', cursive;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  color: white;
+  font-size: 1.8em;
+  border-bottom: dotted black;
+  margin-top: 1rem;
+}
+
+.menutxt {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 0.3rem;
+  -webkit-box-shadow: 4px 2px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 2px 5px -1px rgba(0, 0, 0, 0.75);
+  padding: 0 !important;
+  margin-right: -1.3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: -2.8em;
+}
+
+.txtg {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.menutxt p {
+  border-bottom: 1px solid gray;
+  padding-bottom: 0.8em;
+  padding-left: 0.7rem;
+}
+
+.padtxt {
+  padding-top: 0.8em;
+}
+
+span {
+  margin-left: 8em;
+}
+/*# sourceMappingURL=style.css.map */
